@@ -1,0 +1,55 @@
+@import "./variables";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// * {
+//   outline: 1px red solid;
+// }
+
+.active {
+  color: $primary !important;
+}
+
+.nav-item {
+  padding-left: 30px;
+
+  :hover {
+    color: $primary !important;
+  }
+}
+
+.font-reg {
+  font-family: $font-reg;
+}
+
+.font-med {
+  font-family: $font-med;
+}
+
+.font-semi-bold {
+  font-family: $font-semi-bold;
+}
+
+.font-bold {
+  font-family: $font-bold;
+}
+
+.icon {
+  filter: invert(39%) sepia(5%) saturate(19%) hue-rotate(32deg) brightness(98%)
+    contrast(89%);
+}
+
+.icon-light {
+  filter: invert(100%) sepia(0%) saturate(4993%) hue-rotate(86deg)
+    brightness(124%) contrast(98%);
+}
+
+.icon-primary {
+  filter: invert(73%) sepia(79%) saturate(311%) hue-rotate(349deg)
+    brightness(96%) contrast(94%);
+}
+
+.btn {
+  font-family: $font-semi-bold;
+  padding: 10px 25px;
+}
