@@ -12154,6 +12154,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  outline: 1px red solid;
+}
+
 .active {
   color: #eebf63 !important;
 }
@@ -12199,4 +12203,9 @@ textarea.form-control-lg {
 .btn {
   font-family: "Poppins SemiBold";
   padding: 10px 25px;
+}
+
+.brand {
+  -webkit-filter: invert(43%) sepia(8%) saturate(19%) hue-rotate(2deg) brightness(90%) contrast(87%);
+          filter: invert(43%) sepia(8%) saturate(19%) hue-rotate(2deg) brightness(90%) contrast(87%);
 }

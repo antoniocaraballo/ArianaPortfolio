@@ -2,9 +2,9 @@
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-// * {
-//   outline: 1px red solid;
-// }
+* {
+  outline: 1px red solid;
+}
 
 .active {
   color: $primary !important;
@@ -52,4 +52,9 @@
 .btn {
   font-family: $font-semi-bold;
   padding: 10px 25px;
+}
+
+.brand {
+  filter: invert(43%) sepia(8%) saturate(19%) hue-rotate(2deg) brightness(90%)
+    contrast(87%);
 }
