@@ -12212,7 +12212,8 @@ body {
 
 @media only screen and (max-width: 992px) {
   #nav-menu {
-    position: absolute;
+    visibility: hidden;
+    position: fixed;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -12224,12 +12225,7 @@ body {
     padding-top: 10px;
     background-color: #ffffff;
     z-index: 900;
-    -webkit-transition: right ease-in-out 0.5s;
-    transition: right ease-in-out 0.5s;
-  }
-  #close-nav-icon {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
+    -webkit-transition: right ease-in-out 0.5s, visibility 1s;
+    transition: right ease-in-out 0.5s, visibility 1s;
   }
 }
