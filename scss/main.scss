@@ -6,6 +6,10 @@
 //   outline: 1px red solid;
 // }
 
+.body {
+  overflow-x: hidden;
+}
+
 .active {
   color: $primary !important;
 }

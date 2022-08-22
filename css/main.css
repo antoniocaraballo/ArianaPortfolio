@@ -12154,6 +12154,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+.body {
+  overflow-x: hidden;
+}
+
 .active {
   color: #eebf63 !important;
 }
