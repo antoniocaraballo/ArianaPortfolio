@@ -12154,8 +12154,8 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.body {
-  overflow-x: hidden;
+body {
+  overflow-x: hidden !important;
 }
 
 .active {
