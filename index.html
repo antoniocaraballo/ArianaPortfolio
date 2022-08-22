@@ -12,7 +12,8 @@
     <nav class="navbar navbar-expand py-3">
       <div class="container">
         <a href="#" class="navbar-brand font-bold">Ariana Roy</a>
-        <ul class="navbar-nav ms-auto">
+        <ul id="nav-menu" class="navbar-nav ms-auto">
+          <img id="close-nav-icon" class="d-lg-none mx-4" width="40px" onclick="closeNav()" src="./node_modules/bootstrap-icons/icons/x.svg" alt="">
           <li class="nav-item font-bold">
             <a href="#" class="nav-link active">Home</a>
           </li>
@@ -26,8 +27,14 @@
             <a href="#" class="nav-link text-dark">Contact</a>
           </li>
         </ul>
+        <!-- Nav Menu Mobile -->
+        
+      <a id="ham-menu" onclick="openNav()">
+        <span class="navbar-toggler-icon d-lg-none"></span>
+      </a>
       </div>
     </nav>
+
     <!-- Showcase -->
     <section>
       <div class="container">
@@ -467,6 +474,7 @@
         </div>
       </div>
     </footer>
+    <script src="./app.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
   </body>
 </html>
