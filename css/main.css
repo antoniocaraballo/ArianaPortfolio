@@ -1,4 +1,5 @@
 @charset "UTF-8";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css");
 @font-face {
   font-family: "Poppins Regular";
   src: url(../font/Poppins-Regular.ttf);
@@ -12154,6 +12155,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  outline: 1px red solid;
+}
+
 body {
   overflow-x: hidden !important;
 }
