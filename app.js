@@ -1,4 +1,4 @@
-const navMenu = document.querySelector("#nav-menu");
+const navMenu = document.querySelector(".nav-menu");
 
 function openNav() {
   navMenu.style.right = "0%";
