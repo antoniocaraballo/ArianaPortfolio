@@ -12155,6 +12155,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+* {
+  outline: 1px red solid;
+}
+
 body {
   overflow-x: hidden !important;
 }
@@ -12209,6 +12213,59 @@ body {
 .brand {
   -webkit-filter: invert(43%) sepia(8%) saturate(19%) hue-rotate(2deg) brightness(90%) contrast(87%);
           filter: invert(43%) sepia(8%) saturate(19%) hue-rotate(2deg) brightness(90%) contrast(87%);
+}
+
+hr {
+  border-top: 3px solid #676767;
+}
+
+input::-webkit-input-placeholder {
+  color: #676767;
+  font-weight: 500;
+}
+
+input::-moz-placeholder {
+  color: #676767;
+  font-weight: 500;
+}
+
+input:-ms-input-placeholder {
+  color: #676767;
+  font-weight: 500;
+}
+
+input::-ms-input-placeholder {
+  color: #676767;
+  font-weight: 500;
+}
+
+input::placeholder {
+  color: #676767;
+  font-weight: 500;
+}
+
+textarea {
+  resize: none;
+}
+textarea::-webkit-input-placeholder {
+  color: #676767;
+  font-weight: 500;
+}
+textarea::-moz-placeholder {
+  color: #676767;
+  font-weight: 500;
+}
+textarea:-ms-input-placeholder {
+  color: #676767;
+  font-weight: 500;
+}
+textarea::-ms-input-placeholder {
+  color: #676767;
+  font-weight: 500;
+}
+textarea::placeholder {
+  color: #676767;
+  font-weight: 500;
 }
 
 @media only screen and (max-width: 992px) {
