@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Ariana Roy | About</title>
+  </head>
+  <body class="bg-gray text-dark">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand py-3">
+      <div class="container">
+        <a href="/index.html" class="navbar-brand font-bold">Ariana Roy</a>
+        <ul id="nav-menu" class="navbar-nav ms-auto">
+          <i
+            class="bi bi-x fs-1 d-flex d-lg-none mx-4"
+            onclick="closeNav()"
+          ></i>
+          <li class="nav-item font-bold">
+            <a href="/index.html" class="nav-link">Home</a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="/about.html" class="nav-link text-dark">About</a>
+          </li>
+          <li class="nav-item fw-bold">
+            <a href="/projects.html" class="nav-link text-dark active"
+              >Project</a
+            >
+          </li>
+        </ul>
+        <!-- Nav Menu Mobile -->
+        <a class="ham-menu" onclick="openNav()">
+          <span class="navbar-toggler-icon d-lg-none"></span>
+        </a>
+      </div>
+    </nav>
+    <!-- Main Content -->
+    <section>
+      <div class="container">
+        <h1 class="font-bold my-5">Our Projects</h1>
+        <div class="my-5 d-flex flex-wrap justify-content-between">
+          <!-- Project 1 -->
+          <div class="col-12 col-lg-5 mb-5">
+            <img
+              height="350px"
+              width="100%"
+              class="rounded-5 mb-4"
+              src="./imgs/project (1).jpg"
+              alt=""
+            />
+            <div class="ms-3">
+              <h4 class="font-semi-bold">Minify - Web Design</h4>
+              <div class="d-flex gap-4">
+                <p class="font-reg">
+                  <i class="bi bi-layers-fill me-2"></i>View Study Case
+                </p>
+                <p class="font-reg">
+                  <i class="bi bi-eye me-2"></i>Live Preview
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 2 -->
+          <div class="col-12 col-lg-5 mb-5">
+            <img
+              height="350px"
+              width="100%"
+              class="rounded-5 mb-4"
+              src="./imgs/project (2).jpg"
+              alt=""
+            />
+            <div class="ms-3">
+              <h4 class="font-semi-bold">Ant - Personal Protfolio</h4>
+              <div class="d-flex gap-4">
+                <p class="font-reg">
+                  <i class="bi bi-layers-fill me-2"></i>View Study Case
+                </p>
+                <p class="font-reg">
+                  <i class="bi bi-eye me-2"></i>Live Preview
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Project 3 -->
+          <div class="col-12 col-lg-5 mb-5 mb-lg-0">
+            <img
+              height="350px"
+              width="100%"
+              class="rounded-5 mb-4"
+              src="./imgs/project (3).jpg"
+              alt=""
+            />
+            <div class="ms-3">
+              <h4 class="font-semi-bold">Humy - Dashboard UI Kit</h4>
+              <div class="d-flex gap-4">
+                <p class="font-reg">
+                  <i class="bi bi-layers-fill me-2"></i>View Study Case
+                </p>
+                <p class="font-reg">
+                  <i class="bi bi-eye me-2"></i>Live Preview
+                </p>
+              </div>
+            </div>
+          </div>
+          <!-- Project 4 -->
+          <div class="col-12 col-lg-5 mb-5 mb-lg-0">
+            <img
+              height="350px"
+              width="100%"
+              class="rounded-5 mb-4"
+              src="./imgs/project (4).jpg"
+              alt=""
+            />
+            <div class="ms-3">
+              <h4 class="font-semi-bold">Keeper - Soccer Site</h4>
+              <div class="d-flex gap-4">
+                <p class="font-reg">
+                  <i class="bi bi-layers-fill me-2"></i>View Study Case
+                </p>
+                <p class="font-reg">
+                  <i class="bi bi-eye me-2"></i>Live Preview
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Email Me -->
+    <section class="my-5">
+      <div class="container">
+        <div
+          class="bg-primary p-5 rounded-5 border-0 text-light d-flex flex-column flex-md-row justify-content-between"
+        >
+          <h1 class="font-semi-bold text-center my-4">Interested working</h1>
+          <div
+            class="my-md-4 d-flex flex-column flex-md-row justify-content-center gap-3"
+          >
+            <button class="btn btn-light mx-2" type="button">
+              <i class="bi bi-envelope pe-2"></i>
+              Email Me
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div
+          class="d-flex flex-column flex-lg-row justify-content-around p-5 align-items-center gap-5 gap-lg-0"
+        >
+          <h2 class="font-reg">Let's Connect</h2>
+          <div class="gap-4 d-flex icon">
+            <a href="#"><i class="bi bi-instagram fs-3 icon"></i></a>
+
+            <a href="#"><i class="bi bi-youtube fs-3 icon"></i></a>
+            <a href="#"><i class="bi bi-dribbble fs-3 icon"></i></a>
+          </div>
+          <div>
+            <h4 class="font-reg">Back to Top <i class="bi bi-arrow-up"></i></h4>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="./app.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>
